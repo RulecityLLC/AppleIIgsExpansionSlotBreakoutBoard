@@ -133,7 +133,7 @@
 		(descr "Through hole straight pin header, 1x25, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x25 2.54mm single row")
 		(property "Reference" "J2"
-			(at 0 -2.38 90)
+			(at 2.794 0.127 90)
 			(layer "F.SilkS")
 			(uuid "d44dafc7-37c1-4a37-9c68-2c2d3ae47d34")
 			(effects
@@ -2023,7 +2023,7 @@
 		(descr "Through hole straight pin header, 1x25, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x25 2.54mm single row")
 		(property "Reference" "J3"
-			(at 0 -2.38 90)
+			(at 2.794 0.127 90)
 			(layer "F.SilkS")
 			(uuid "2ba37e7c-e9a1-4e52-a48b-a749e541bbfc")
 			(effects
@@ -2776,8 +2776,8 @@
 		)
 	)
 	(gr_line
-		(start 120.396 87.376)
-		(end 124.968 87.376)
+		(start 120.7516 87.376)
+		(end 122.936 85.344)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -2786,8 +2786,8 @@
 		(uuid "50fb64c9-6712-49c7-b5fc-016f1645d7d0")
 	)
 	(gr_line
-		(start 124.968 50.8)
-		(end 55.88 50.8)
+		(start 122.936 50.8)
+		(end 55.7784 50.8)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -2796,8 +2796,8 @@
 		(uuid "62e26d8e-f1d4-4753-a069-ff32d2c11900")
 	)
 	(gr_line
-		(start 120.396 96.52)
-		(end 120.396 87.376)
+		(start 120.7516 96.7232)
+		(end 120.7516 87.376)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -2806,8 +2806,8 @@
 		(uuid "88a24cb1-5efb-4891-bb38-a6f589c643e5")
 	)
 	(gr_line
-		(start 55.88 96.52)
-		(end 120.396 96.52)
+		(start 55.7784 96.7232)
+		(end 120.7516 96.7232)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -2816,8 +2816,8 @@
 		(uuid "8bc5b44d-622e-4ff0-82b4-ffc5e19f739b")
 	)
 	(gr_line
-		(start 55.88 50.8)
-		(end 55.88 96.52)
+		(start 55.7784 50.8)
+		(end 55.7784 96.7232)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -2826,8 +2826,8 @@
 		(uuid "a225c12e-5c3c-4a5a-9a25-dd491a8d8601")
 	)
 	(gr_line
-		(start 124.968 87.376)
-		(end 124.968 50.8)
+		(start 122.936 85.344)
+		(end 122.936 50.8)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -3556,6 +3556,14 @@
 		(uuid "b6be7d16-39ae-479f-8a87-c0201854ed4c")
 	)
 	(segment
+		(start 113.665 92.71)
+		(end 113.665 69.85)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 5)
+		(uuid "53ed92af-c46c-408a-a5c2-fb5c4e757908")
+	)
+	(segment
 		(start 113.665 69.85)
 		(end 113.665 57.15)
 		(width 0.2)
@@ -3626,6 +3634,14 @@
 		(layer "F.Cu")
 		(net 9)
 		(uuid "9daf8c12-e453-434f-9d44-31ed46b0a5da")
+	)
+	(segment
+		(start 116.205 92.71)
+		(end 116.205 69.85)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 9)
+		(uuid "afce1cea-b7ef-4440-9dce-3d418e22f385")
 	)
 	(segment
 		(start 116.205 69.85)

@@ -2612,23 +2612,31 @@
 		)
 		(uuid "86fbd89e-7574-46b6-9f49-ac9dfb82765d")
 	)
+	(text "DMA_OUT"
+		(exclude_from_sim no)
+		(at 44.45 99.568 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ab0cabc7-098d-4110-93f4-b93f3ecbd422")
+	)
+	(text "INT_OUT"
+		(exclude_from_sim no)
+		(at 44.196 97.028 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ae879a84-f7bc-4cf1-bf47-0f1909e23fbc")
+	)
 	(junction
 		(at 179.07 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3d219623-1645-41dd-83fc-d3375c50f31a")
-	)
-	(junction
-		(at 49.53 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "44fada5f-ae13-4c75-9ac9-bb45a4345ff9")
-	)
-	(junction
-		(at 50.8 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "58adf001-997b-4109-acde-7fe8838c8302")
 	)
 	(junction
 		(at 179.07 30.48)
@@ -2811,16 +2819,6 @@
 			(type default)
 		)
 		(uuid "34ca243f-a829-41ad-9099-ff64105c0e87")
-	)
-	(wire
-		(pts
-			(xy 40.64 100.33) (xy 50.8 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43b1bf84-19b6-4d09-b755-c0c987b2cfa4")
 	)
 	(wire
 		(pts
@@ -3334,16 +3332,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 97.79) (xy 49.53 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f60cb785-e5c3-4264-a1b4-40b15f2ff906")
-	)
-	(wire
-		(pts
 			(xy 50.8 105.41) (xy 69.85 105.41)
 		)
 		(stroke
@@ -3492,15 +3480,15 @@
 		)
 		(uuid "1387d3b4-c2e9-47ef-89bb-5d4d537e459c")
 	)
-	(label "DMA_OUT"
-		(at 105.41 101.6 0)
+	(label "INT_IN"
+		(at 105.41 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "14ee9e28-be9e-4e22-bb46-742a2ac51cb0")
+		(uuid "13d3a5a1-90e2-461a-ac87-95eb52858d5a")
 	)
 	(label "D3"
 		(at 158.75 53.34 0)
@@ -3731,16 +3719,6 @@
 			(justify left bottom)
 		)
 		(uuid "3fd7e683-7831-4283-b2d9-134d60bd6747")
-	)
-	(label "DMA_OUT"
-		(at 40.64 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "40452efe-c20b-4323-82aa-11117b0bf0a8")
 	)
 	(label "A3"
 		(at 105.41 53.34 0)
@@ -4012,16 +3990,6 @@
 		)
 		(uuid "82a08f1b-b1fc-4848-b095-c0f91725badb")
 	)
-	(label "INT_OUT"
-		(at 105.41 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "851417ef-da3c-4e65-b1fa-38c67478f013")
-	)
 	(label "~{IOSEL}"
 		(at 40.64 41.91 0)
 		(effects
@@ -4081,16 +4049,6 @@
 			(justify left bottom)
 		)
 		(uuid "90315739-8001-47d2-8d4b-95f5b89059a2")
-	)
-	(label "INT_OUT"
-		(at 40.64 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "943166db-6a21-4e82-ac06-dd424bc5cf00")
 	)
 	(label "A2"
 		(at 105.41 50.8 0)
@@ -4341,6 +4299,16 @@
 			(justify left bottom)
 		)
 		(uuid "e2f531da-f774-4727-9a69-c7e64237c1fe")
+	)
+	(label "DMA_IN"
+		(at 105.41 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e57dcb07-8996-4c29-938e-2cbaf08fcb9c")
 	)
 	(label "CREF"
 		(at 64.77 80.01 0)
